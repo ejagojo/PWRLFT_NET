@@ -1,7 +1,8 @@
-import { auth, provider} from "../../config/firebase";
+import { auth, provider} from "../../../config/firebase";
 import { signInWithPopup } from "firebase/auth";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+
 
 export const Auth = () => {
 
@@ -31,6 +32,7 @@ export const Auth = () => {
         }
 
     };
+
 
     // Render Auth component
     return (
