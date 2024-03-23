@@ -76,13 +76,6 @@ export const Auth = () => {
         justifyContent: 'center',
     };
 
-    const iconStyle = {
-        height: '20px',
-        marginRight: '12px',
-        minWidth: '20px',
-        width: '20px',
-    };
-
 
     // Render Auth component
     return (
@@ -134,7 +127,7 @@ const Button = styled.button`
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
-  background-color: blue; // Replace with LinkedIn's button color
+  background-color: blue; 
   color: white;
   border: none;
   border-radius: 4px;
